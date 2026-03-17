@@ -1,27 +1,151 @@
-# Gaming Behavior Analysis Project
+# TASK-02
 
-This project analyzes online gaming behavior to identify patterns related to player churn.
+# 🎮 Gaming Player Retention & Churn Analysis
 
-## Project Structure
-- `data/`: Contains raw and cleaned datasets.
-- `src/`: Core logic modules.
-  - `cleaning.py`: Data preprocessing and feature engineering (Churn column).
-  - `analysis.py`: Descriptive statistics and churn analysis.
-  - `visualization.py`: Generates charts and saved them to `images/`.
-- `images/`: Output directory for generated visualizations.
-- `requirements.txt`: Project dependencies.
-- `main.py`: Main entry point to run the full pipeline.
+## 📊 Project Overview
 
-## How to Run
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. Run the full pipeline:
-   ```bash
-   python main.py
-   ```
+This project focuses on analyzing player behavior in a gaming environment to understand **churn patterns, engagement trends, and retention drivers**.
 
-## Key Findings
-- **Churn Definition**: Players with a 'Low' EngagementLevel are categorized as Churned.
-- **Visualizations**: Check the `images/` directory for churn distribution, engagement comparisons, and session duration analysis.
+The goal is to identify:
+
+* Why players leave the game (churn)
+* Which player segments are at high risk
+* What factors improve player retention and engagement
+
+---
+
+## 🚀 Objectives
+
+* Analyze player demographics and engagement behavior
+* Identify key factors influencing churn
+* Build an interactive Power BI dashboard
+* Provide actionable business recommendations
+
+---
+
+## 🛠️ Tools & Technologies
+
+* **Python** (Data Cleaning & Preprocessing)
+* **Power BI** (Dashboard & Visualization)
+* **Pandas, NumPy** (Data Analysis)
+
+---
+
+## 📁 Project Structure
+
+```
+FUTURE_DS_02/
+│
+├── scripts/                # Data cleaning and preprocessing scripts
+├── src/                    # Core analysis files
+├── Sales Analysis-Task-1.pbix   # Power BI dashboard file
+├── main.py                 # Main execution script
+├── requirements.txt        # Python dependencies
+├── README.md               # Project documentation
+└── .gitignore
+```
+
+---
+
+## 📊 Dashboard Features
+
+### 🔹 Key KPIs
+
+* Total Players
+* Churn Rate (%)
+* Avg Weekly Sessions
+* Avg Session Duration
+* Avg Player Level
+* Avg Playtime
+* Avg In-game Purchases
+
+---
+
+### 🔹 Player Demographics
+
+* Gender distribution
+* Age group analysis
+* Paying vs non-paying players
+
+---
+
+### 🔹 Engagement Analysis
+
+* Engagement level distribution
+* Achievements vs engagement
+* Session frequency patterns
+
+---
+
+### 🔹 Churn Analysis
+
+* Sessions vs churn
+* Player level vs churn
+* Purchases vs churn
+
+---
+
+### 🔹 Funnel Analysis
+
+Player journey visualization:
+
+```
+Total Players → Active Players → High Level Players → Paying Players
+```
+
+---
+
+## 🔍 Key Insights
+
+* ~26% of players are at risk of churn
+* Players with fewer sessions show significantly higher churn
+* Early-stage players drop off quickly
+* Higher level players have better retention
+* Players who make purchases are more likely to stay
+
+---
+
+## 💡 Business Recommendations
+
+### 1. Improve Onboarding
+
+* Introduce guided tutorials and early rewards
+* Reduce early-stage drop-off
+
+### 2. Boost Engagement
+
+* Add daily rewards and challenges
+* Increase session frequency
+
+### 3. Strengthen Retention
+
+* Target low-activity players with notifications
+* Re-engage inactive users
+
+### 4. Optimize Monetization
+
+* Offer starter packs and discounts
+* Encourage in-game purchases
+
+---
+
+## 🎯 Conclusion
+
+This analysis demonstrates how **player behavior directly impacts retention and revenue**.
+By focusing on engagement, progression, and monetization, gaming companies can significantly reduce churn.
+
+---
+
+## 📌 Future Improvements
+
+* Add predictive churn model (ML)
+* Real-time dashboard integration
+* Advanced cohort analysis
+
+---
+
+## 🔗 Connect
+
+If you found this project useful, feel free to ⭐ the repository and connect!
+
+---
