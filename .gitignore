@@ -153,7 +153,5 @@ cython_debug/
 # VS Code
 .vscode/
 
-# Project specific
-data/
-images/
-*.csv
+
+
