@@ -10,20 +10,20 @@ def main():
     cleaned_data = "data/gaming_behavior_cleaned.csv"
     
     # 1. Cleaning
-    print("\n--- Step 1: Data Cleaning ---")
+    print("\nStep 1: Data Cleaning")
     if not clean_data(raw_data, cleaned_data):
         print("Pipeline failed at Step 1.")
         return
 
     # 2. Analysis
-    print("\n--- Step 2: Running Analysis ---")
+    print("\nStep 2: Running Analysis")
     run_analysis(cleaned_data)
 
     # 3. Visualizations
-    print("\n--- Step 3: Generating Visualizations ---")
+    print("\nStep 3: Generating Visualizations")
     create_visualizations(cleaned_data)
 
-    print("\n=== Pipeline Completed Successfully ===")
+    print("\nPipeline Completed Successfully")
 
 if __name__ == "__main__":
     main()

@@ -31,19 +31,32 @@ The goal is to identify:
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```
 FUTURE_DS_02/
 │
+├── data/                   # Raw and cleaned dataset files
+├── images/                 # Visualizations and dashboard screenshots
+├── powerbi_dashboard/      # Power BI dashboard file (.pbix)
 ├── scripts/                # Data cleaning and preprocessing scripts
 ├── src/                    # Core analysis files
-├── Sales Analysis-Task-1.pbix   # Power BI dashboard file
 ├── main.py                 # Main execution script
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Project documentation
 └── .gitignore
 ```
+
+---
+
+## 📊 Dataset Source
+
+The dataset used in this project is the **Predict Online Gaming Behavior Dataset**, sourced from **Kaggle**.
+
+* **Dataset Name**: [Predict Online Gaming Behavior Dataset](https://www.kaggle.com/datasets/rabieit/predict-online-gaming-behavior-dataset)
+* **Author**: Rabie El-Kharoua
+* **Description**: This dataset contains various metrics related to player demographics, game genres, engagement levels, and churn behavior in online gaming.
+
 
 ---
 
